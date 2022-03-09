@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Vet/static/css/main.236453a5.css",
-    "main.js": "/Vet/static/js/main.4b13777b.js",
+    "main.css": "/Vet/static/css/main.b8c80df1.css",
+    "main.js": "/Vet/static/js/main.a850c83a.js",
     "static/js/787.d8c21dcf.chunk.js": "/Vet/static/js/787.d8c21dcf.chunk.js",
+    "static/media/backvet.jpg": "/Vet/static/media/backvet.ee4cf695b9c9b1ef3dbe.jpg",
+    "static/media/doc.jpg": "/Vet/static/media/doc.5c94176026da86629562.jpg",
     "index.html": "/Vet/index.html",
-    "main.236453a5.css.map": "/Vet/static/css/main.236453a5.css.map",
-    "main.4b13777b.js.map": "/Vet/static/js/main.4b13777b.js.map",
+    "main.b8c80df1.css.map": "/Vet/static/css/main.b8c80df1.css.map",
+    "main.a850c83a.js.map": "/Vet/static/js/main.a850c83a.js.map",
     "787.d8c21dcf.chunk.js.map": "/Vet/static/js/787.d8c21dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.236453a5.css",
-    "static/js/main.4b13777b.js"
+    "static/css/main.b8c80df1.css",
+    "static/js/main.a850c83a.js"
   ]
 }
