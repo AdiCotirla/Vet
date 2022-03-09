@@ -11,7 +11,7 @@ function App() {
   return (
   <Router>
     <Routes>
-      <Route exact path='/' element={<> <Clinic/> <Navbar/></>}/>
+      <Route exact path='/Vet/' element={<> <Clinic/> <Navbar/></>}/>
   </Routes>
   </Router>
   );
