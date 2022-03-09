@@ -9,9 +9,11 @@ import Clinic from './Components/Clinic/Clinic';
 
 function App() {
   return (
-  <Router>
+  <Router basename='/Vet'>
+    <Clinic/>
+     <Navbar/>
     <Routes>
-      <Route exact path='/Vet/' element={<> <Clinic/> <Navbar/></>}/>
+      <Route exact path='/' element={<> <Clinic/> <Navbar/></>}/>
   </Routes>
   </Router>
   );
