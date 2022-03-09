@@ -1,0 +1,105 @@
+.clinic-container
+{
+    min-height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    color: #4863ff;
+}
+.header-clinic
+{
+    font-size: 3rem;
+}
+
+.p-header-clinic
+{
+    font-size: 2rem;
+}
+.clinic-logo
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #4863ff;
+}
+.clinic-logo > a
+{
+    color: #4863ff;
+    text-decoration: none;
+    position: relative;
+}
+.clinic-emergencies
+{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+.emergencies-number
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emergencies-number > a
+{
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+.phone
+{
+    color:#4863ff;
+}
+.emergencies-appointment
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #4863ff;
+    height: 90px;
+    border-radius: 30px;
+    padding: 1%;
+    margin-left: 20px;
+    width: 300px;
+    transition: 350ms;
+    border: 2px solid #4863ff;
+}
+.emergencies-appointment:hover
+{
+    background-color: white;
+    color: #4863ff;
+}
+.linkuri
+{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+.clinic-container
+{
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.clinic-emergencies
+{
+    flex-direction: column;
+}
+.clinic-logo
+{
+    text-align: center;
+}
+.emergencies-appointment
+{
+    margin-left: 0;
+}
+}
