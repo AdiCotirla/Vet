@@ -34,7 +34,7 @@
 }
 .clinic-emergencies
 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,10 +55,6 @@
     display: flex;
     color: black;
 }
-.phone
-{
-    color:#4863ff;
-}
 .emergencies-appointment
 {
     display: flex;
@@ -73,6 +69,8 @@
     width: 300px;
     transition: 350ms;
     border: 2px solid #4863ff;
+    -webkit-box-shadow: 0px 2px 12px  rgba(0,0,0,0.6); 
+    box-shadow: 0 2px 12px rgb(0 0 0 / 60%);
 }
 .emergencies-appointment:hover
 {

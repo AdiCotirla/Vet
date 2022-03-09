@@ -18,7 +18,7 @@ export default function Clinic() {
                     <div className='emergencies-number'>
                         <a href='#'>
                             <BsIcons.BsFillTelephoneFill className='phone'/>
-                              0746878517
+                              :0746878517
                             </a>
                     </div>
                     <Link to="/contact" className='linkuri'>

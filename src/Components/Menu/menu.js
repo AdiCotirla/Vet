@@ -33,7 +33,7 @@ function Navbar(props) {
   window.onscroll = function() {ShowMenu()};
 
   function ShowMenu() {
-    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
+    if (document.body.scrollTop > 280 || document.documentElement.scrollTop > 280) {
       document.getElementById("navbar-sticky").style.top = "0";
     } else {
       document.getElementById("navbar-sticky").style.top = "-100%";

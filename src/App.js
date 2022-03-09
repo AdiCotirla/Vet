@@ -6,6 +6,8 @@ import {
   Route
 } from "react-router-dom";
 import Clinic from './Components/Clinic/Clinic';
+import Welcome from './Components/Welcome/Welcome';
+import Doctor from './Components/Doctor/Doctor';
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
     <div className='App'>
     <Clinic/>
      <Navbar/>
+     <Welcome/>
+     <Doctor/>
     <Routes>
-      <Route exact path='/' element={<> <Clinic/> <Navbar/></>}/>
+      <Route exact path='/' element={<></>}/>
   </Routes>
   </div>
   </Router>

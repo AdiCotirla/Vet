@@ -1,6 +1,22 @@
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*::-webkit-scrollbar {
+    display: none;
+  }
+  *{
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  html
+  {
+    scroll-behavior: smooth;
+  }
+#root
+{
+    overflow: hidden;
+    min-height: 200vh;
+    
 }
