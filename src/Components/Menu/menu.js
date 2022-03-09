@@ -49,7 +49,7 @@ function Navbar(props) {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               Acasa
             </Link>
           </li>
@@ -59,7 +59,7 @@ function Navbar(props) {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/servicii'
               className='nav-links'
               onClick={closeMobileMenu}
             >

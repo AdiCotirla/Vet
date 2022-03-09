@@ -10,8 +10,9 @@ import Clinic from './Components/Clinic/Clinic';
 function App() {
   return (
   <Router>
-    <Clinic/>
-  <Navbar/>
+    <Routes>
+      <Route exact path='/' element={<> <Clinic/> <Navbar/></>}/>
+  </Routes>
   </Router>
   );
 }
