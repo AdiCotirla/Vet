@@ -11,7 +11,7 @@
     font-size: 1.2rem;
     position: relative;
     font-family: 'Kaisei Decol', serif;
-    z-index: 999999999;
+    z-index: 9999;
   }
   #navbar
   {
@@ -101,7 +101,7 @@
     width: 100%;
     font-family: 'Kaisei Decol', serif;
     transition: all .3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    z-index: 9999;
+    z-index: 99999;
   }
   .navbar-logo-sticky {
     display: flex;
@@ -205,18 +205,23 @@
     }
   
     .menu-icon {
-      display: block;
+      display: flex;
       position: absolute;
-      top: 50%;
-      right: 50%;
-      transform: translate(50%, -50%);
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      /* top: 50%;
+      left: 10%;
+      transform: translate(10%, -50%); */
       font-size: 1.8rem;
       cursor: pointer;
       color: white;
     }
-    .menu-icon > span
+    .menu-icon > a
     {
-      margin-right: 15px;
+     color: white;
+     display: flex;
     }
   .nav-item
   {

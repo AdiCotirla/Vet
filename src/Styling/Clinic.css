@@ -85,8 +85,10 @@
 @media screen and (max-width: 960px) {
 .clinic-container
 {
+    display: none;
+    margin-top: 5%;
     flex-direction: column;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 .clinic-emergencies
 {
@@ -94,6 +96,7 @@
 }
 .clinic-logo
 {
+    margin-bottom: 5%;
     text-align: center;
 }
 .emergencies-appointment

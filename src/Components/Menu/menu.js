@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../../Styling/Navbar.css';
 import Dropdown from '../SubMenu/SubMenu';
 import * as MdIcons from "react-icons/md"
+import * as BsIcons from "react-icons/bs"
 
 
 
@@ -43,9 +44,12 @@ function Navbar(props) {
   return (
     <div id='navbar'>
       <nav className='navbar'>
-        <div className='menu-icon' onClick={handleClick}>
-          <span>Meniu</span>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        <div className='menu-icon'>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} onClick={handleClick}/>
+          <p>Kevinvet Doc</p>
+          <a href='/#'>
+                            <BsIcons.BsFillTelephoneFill className='phone'/>
+                            </a>
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
@@ -83,6 +87,15 @@ function Navbar(props) {
               onClick={closeMobileMenu}
             >
               Contact
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/urgente'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Urgente
             </Link>
           </li>
         </ul>
@@ -132,6 +145,15 @@ function Navbar(props) {
               onClick={closeMobileMenu}
             >
               Contact
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/urgente'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Urgente
             </Link>
           </li>
         </ul>

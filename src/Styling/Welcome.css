@@ -34,7 +34,7 @@ button
 {
     font-size: 2rem;
     text-align: center;
-    margin-top: 75px;
+    margin: 75px 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding: 2%;
@@ -42,4 +42,10 @@ button
 button:hover
 {
    background-color: #31419e;
+}
+@media only screen and (max-width:960px) {
+    .welcome-container
+    {
+        background-attachment:unset;
+    }
 }
