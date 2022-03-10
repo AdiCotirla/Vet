@@ -4,13 +4,14 @@ import Slider from '../Carousel/Carousel'
 import derma from "../../assets/derma.png"
 import ofta from "../../assets/ofta.png"
 import general from "../../assets/general.png"
+import SimpleSlider from '../Carousel/Carousel'
 export default function Tips() {
     return (
         <div className='servicii-container'>
             <h1 className='servicii-header'>Servicii</h1>
             <div className='container-tricks'>
                 <div className='tips-tricks'>
-                    <Slider />
+                    <SimpleSlider />
                 </div>
                 <div className='container-servicii'>
                     <div className='servicii ofta'>
