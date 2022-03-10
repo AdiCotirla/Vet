@@ -90,7 +90,7 @@
     .servicii-container
     {
         margin-bottom: 50px;
-    background-attachment: none;
+        background-attachment:unset;
     }
     .container-tricks
     {
