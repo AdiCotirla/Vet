@@ -83,6 +83,10 @@
 }
 @media only screen and (max-width: 960px) {
 
+    .servicii-header
+    {
+        margin-bottom: 0px;
+    }
     .servicii-container
     {
         margin-bottom: 50px;
@@ -94,15 +98,18 @@
         height: 90%;
         align-items: center;
     }
-    .tips-tricks,
     .container-servicii
     {
         height: 50%;
         width: 90%;
     }
+    .tips-tricks
+    {
+        width: 90%;
+        height: 50%;
+    }
     .container-servicii
     {
-        margin-bottom: 50px;
         margin-top: 5%;
     }
 .servicii-header
