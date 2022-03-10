@@ -31,6 +31,11 @@ function Navbar(props) {
   };
 
 
+  const BlurRoot =() => {
+    document.getElementById("root").style.backgroundColor = "#00000038;"
+  }
+
+
   window.onscroll = function() {ShowMenu()};
 
   function ShowMenu() {
@@ -45,7 +50,10 @@ function Navbar(props) {
     <div id='navbar'>
       <nav className='navbar'>
         <div className='menu-icon'>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} onClick={handleClick}/>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} onClick={()=>{
+            handleClick()
+            BlurRoot()
+          }}/>
           <p>Kevinvet Doc</p>
           <a href='/#'>
                             <BsIcons.BsFillTelephoneFill className='phone'/>

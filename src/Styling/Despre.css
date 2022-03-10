@@ -1,0 +1,109 @@
+.servicii-container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2000px;
+    /* margin-top: 50px; */
+    background-image: url(../assets/tree.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-tricks
+{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tips-tricks
+{
+    background-color: black;
+    height: 80%;
+    width: 40%;
+    border-radius: 15px;
+}
+.container-servicii
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 40%;
+}
+.servicii-hover-header
+{
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: white;
+    transition: 350ms;
+}
+.servicii > img
+{
+    height: 100%;
+}
+.servicii-header
+{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), #4863ff);
+    text-align: center;
+}
+.servicii
+{
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    object-fit: contain;
+    transition: 350ms;
+    background-color: rgb(61, 82, 179);
+}
+.servicii:hover
+{
+    background-color: rgb(43, 60, 133);
+
+}
+.servicii:hover > .servicii-hover-header
+{
+    bottom: 50%;
+}
+@media only screen and (max-width: 960px) {
+
+    .servicii-container
+    {
+        margin-bottom: 50px;
+    background-attachment: none;
+    }
+    .container-tricks
+    {
+        flex-direction: column;
+        height: 90%;
+        align-items: center;
+    }
+    .tips-tricks,
+    .container-servicii
+    {
+        height: 50%;
+        width: 90%;
+    }
+    .container-servicii
+    {
+        margin-bottom: 50px;
+        margin-top: 5%;
+    }
+.servicii-header
+{
+    font-size: 3rem;
+}
+}

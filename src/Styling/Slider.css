@@ -1,0 +1,61 @@
+.main-slider
+{
+    height: 100%;
+}
+.thumbs
+{
+    display: none;
+}
+.carousel
+{
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+.control-arrow
+{
+    display: none;
+}
+.slider-wrapper
+{
+    height: 100%;
+}
+.animated
+{
+    height: 100%;
+}
+.slide
+{
+    height: 100%;
+}
+.image-container
+{
+    height: calc(100% - 50px);
+}
+.image-container > img
+{
+    display: none;
+}
+.control-dots
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 0;
+}
+.legend
+{
+    height: calc(100% - 50px);
+    width: 100%;
+    border-radius: none;
+    padding: 0px;
+    opacity: 1;
+    overflow: scroll;
+}
+.carousel .slide .legend 
+{
+    padding: 0px;
+    opacity: 1;
+    font-size: 1rem;
+}

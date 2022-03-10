@@ -12,40 +12,54 @@
 }
 .header-doc
 {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+}
+.carusel-doc
+{
+    display: none;
+}
+.main-slider-doc
+{
+    height: 60vh;
+}
+.img-doc-carusel
+{
+    height: 100%;
+    max-width: 90vw;
+    border-radius: 15px;
 }
 .img-doc-div
 {
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    height: 70%;
-    width: 400px;
+    height: 80%;
+    width: 100vw;
     transition: .3s;
     border-radius: 15px;
     max-width: 90vw;
-    -webkit-box-shadow: 0px 0px 12px 1px #000000; 
-    box-shadow: 0px 0px 12px 1px #000000;
 }
 .img-doc
 {
+    -webkit-box-shadow: 0px 0px 12px 1px #000000; 
+    box-shadow: 0px 0px 12px 1px #000000;
     border-radius: 15px;
-    width: 100%;
+    width: 30%;
     height: 100%;
 }
-.infos
+.doc-name
 {
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(255, 255, 255, 0.322);
-    height: 30%;
-    width: 100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-weight: 400;
-    font-size: 1.5rem;
-   
+    margin-bottom: 15px;
+}
+@media only screen and (max-width:960px) 
+{
+    .img-doc-div
+    {
+        display: none;
+    }
+    .carusel-doc
+    {
+        display: block;
+    }
+    
 }
