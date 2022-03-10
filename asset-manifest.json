@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Vet/static/css/main.dc266ab7.css",
+    "main.css": "/Vet/static/css/main.811c8b53.css",
     "main.js": "/Vet/static/js/main.e4d2f104.js",
     "static/js/787.d8c21dcf.chunk.js": "/Vet/static/js/787.d8c21dcf.chunk.js",
     "static/media/tree.jpg": "/Vet/static/media/tree.34f1ff5ce109a7e92ed7.jpg",
@@ -12,12 +12,12 @@
     "static/media/general.png": "/Vet/static/media/general.b61e6f6c30eca525da9e.png",
     "static/media/derma.png": "/Vet/static/media/derma.84096078edc01bf75baa.png",
     "index.html": "/Vet/index.html",
-    "main.dc266ab7.css.map": "/Vet/static/css/main.dc266ab7.css.map",
+    "main.811c8b53.css.map": "/Vet/static/css/main.811c8b53.css.map",
     "main.e4d2f104.js.map": "/Vet/static/js/main.e4d2f104.js.map",
     "787.d8c21dcf.chunk.js.map": "/Vet/static/js/787.d8c21dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc266ab7.css",
+    "static/css/main.811c8b53.css",
     "static/js/main.e4d2f104.js"
   ]
 }
