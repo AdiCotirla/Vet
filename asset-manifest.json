@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Vet/static/css/main.6dce6ff7.css",
-    "main.js": "/Vet/static/js/main.e4d2f104.js",
+    "main.css": "/Vet/static/css/main.8a8be82d.css",
+    "main.js": "/Vet/static/js/main.4a3be896.js",
     "static/js/787.d8c21dcf.chunk.js": "/Vet/static/js/787.d8c21dcf.chunk.js",
     "static/media/tree.jpg": "/Vet/static/media/tree.34f1ff5ce109a7e92ed7.jpg",
     "static/media/doc.jpg": "/Vet/static/media/doc.75867311fd21842adfea.jpg",
     "static/media/ofta.png": "/Vet/static/media/ofta.82b513627275c63ec24b.png",
     "static/media/doc2.jpg": "/Vet/static/media/doc2.426a6b4c05adb727ac27.jpg",
     "static/media/doc3.jpg": "/Vet/static/media/doc3.aaaff5797206e8765132.jpg",
+    "static/media/log.png": "/Vet/static/media/log.b865e0b98789b1394d5c.png",
     "static/media/backvet.jpg": "/Vet/static/media/backvet.ee4cf695b9c9b1ef3dbe.jpg",
     "static/media/general.png": "/Vet/static/media/general.b61e6f6c30eca525da9e.png",
     "static/media/derma.png": "/Vet/static/media/derma.84096078edc01bf75baa.png",
     "index.html": "/Vet/index.html",
-    "main.6dce6ff7.css.map": "/Vet/static/css/main.6dce6ff7.css.map",
-    "main.e4d2f104.js.map": "/Vet/static/js/main.e4d2f104.js.map",
+    "main.8a8be82d.css.map": "/Vet/static/css/main.8a8be82d.css.map",
+    "main.4a3be896.js.map": "/Vet/static/js/main.4a3be896.js.map",
     "787.d8c21dcf.chunk.js.map": "/Vet/static/js/787.d8c21dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dce6ff7.css",
-    "static/js/main.e4d2f104.js"
+    "static/css/main.8a8be82d.css",
+    "static/js/main.4a3be896.js"
   ]
 }
