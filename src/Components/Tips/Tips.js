@@ -1,12 +1,12 @@
 import React from 'react'
 import "../../Styling/Despre.css"
-import Slider from '../Carousel/Carousel'
 import derma from "../../assets/derma.png"
 import ofta from "../../assets/ofta.png"
 import general from "../../assets/general.png"
+import cat from "../../assets/log.png"
 import SimpleSlider from '../Carousel/Carousel'
 export default function Tips() {
-    return (
+    return (<>
         <div className='servicii-container'>
             <h1 className='servicii-header'>Servicii</h1>
             <div className='container-tricks'>
@@ -29,5 +29,15 @@ export default function Tips() {
                 </div>
             </div>
         </div>
+            <div className='contact-servicii'>
+                <img src={cat} alt="servicii" className='back-contact'></img>
+                <h1 className='contact-servicii-header'>Programeaza o intalnire cu doctorul</h1>
+                <a href='tel:+0746878517' className='servicii-a'>
+                    <button className='servicii-a-buton'>
+                        <p className='buton-nr'>0746878517</p>
+                    </button>
+                </a>
+            </div>
+            </>
     )
 }

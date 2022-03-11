@@ -8,14 +8,14 @@ export default function Clinic() {
     return (
         <div className='clinic-container'>
             <div className='clinic-logo'>
-                <Link to='/' >
+                <Link to='/' className='clinic-logo-a'>
                     <h1 className='header-clinic'>Kevinvet Doc </h1>
                     <p className='p-header-clinic'>Clinica Veterinara</p>
                 </Link>
                 </div>
                 <div className='clinic-emergencies'>
                     <div className='emergencies-number'>
-                        <a href='/#'>
+                        <a href='/#' className='emergencies-number-a'>
                             <BsIcons.BsFillTelephoneFill className='phone'/>
                               :0746878517
                             </a>

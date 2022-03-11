@@ -26,7 +26,7 @@
     align-items: center;
     color: #4863ff;
 }
-.clinic-logo > a
+.clinic-logo-a
 {
     color: #4863ff;
     text-decoration: none;
@@ -47,7 +47,7 @@
     justify-content: center;
     align-items: center;
 }
-.emergencies-number > a
+.emergencies-number-a
 {
     text-decoration: none;
     justify-content: center;
