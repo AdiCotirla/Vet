@@ -5,9 +5,25 @@ import ofta from "../../assets/ofta.png"
 import general from "../../assets/general.png"
 import cat from "../../assets/log.png"
 import SimpleSlider from '../Carousel/Carousel'
+import bird from "../../assets/pasare.gif"
 export default function Tips() {
+
+    window.onscroll = function() {Zbor()};
+
+function Zbor() {
+    let value = window.scrollY
+  document.getElementById("pasare").style.left = value * 1.05 + 'px'
+  document.getElementById("pasare").style.top = value * 0.35 + 'px'
+  document.getElementById("pasare").style.opacity = value / 1.25+ 'px'
+
+
+
+}
+
+
     return (<>
         <div className='servicii-container'>
+            <img src={bird} alt="bird" className='pasare' id='pasare'></img>
             <h1 className='servicii-header'>Servicii</h1>
             <div className='container-tricks'>
                 <div className='tips-tricks'>

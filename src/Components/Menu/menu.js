@@ -97,15 +97,6 @@ function Navbar(props) {
               Contact
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link
-              to='/urgente'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Urgente
-            </Link>
-          </li>
         </ul>
       </nav>
 
@@ -153,15 +144,6 @@ function Navbar(props) {
               onClick={closeMobileMenu}
             >
               Contact
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link
-              to='/urgente'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Urgente
             </Link>
           </li>
         </ul>

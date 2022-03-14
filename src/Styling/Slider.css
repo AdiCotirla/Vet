@@ -50,13 +50,25 @@
     border-radius: none;
     padding: 0px;
     opacity: 1;
-    overflow: scroll;
+    position: relative;
 }
 .carousel .slide .legend 
 {
     padding: 0px;
     opacity: 1;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #4863ff00;
-    
+}
+.more
+{
+    position: absolute;
+    right: 5%;
+    color: white;
+    bottom: 5%;
+}
+@media only screen and (max-width:960px) {
+.carousel .slide .legend 
+    {
+        font-size: 1rem;
+    }
 }

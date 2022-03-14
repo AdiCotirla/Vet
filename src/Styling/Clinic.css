@@ -25,6 +25,7 @@
     justify-content: start;
     align-items: center;
     color: #4863ff;
+    position: relative;
 }
 .clinic-logo-a
 {
@@ -32,6 +33,7 @@
     text-decoration: none;
     position: relative;
 }
+
 .clinic-emergencies
 {
     font-size: 1.5rem;

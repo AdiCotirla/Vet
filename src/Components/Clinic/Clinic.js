@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import * as GrIcons from "react-icons/gr"
 import * as BsIcons from "react-icons/bs"
+import logo from "../../assets/deplasare.png"
 
 import "../../Styling/Clinic.css"
 export default function Clinic() {
@@ -9,8 +10,8 @@ export default function Clinic() {
         <div className='clinic-container'>
             <div className='clinic-logo'>
                 <Link to='/' className='clinic-logo-a'>
-                    <h1 className='header-clinic'>Kevinvet Doc </h1>
-                    <p className='p-header-clinic'>Clinica Veterinara</p>
+                    <h1 className='header-clinic'>Kevinvet Doc  </h1>
+                    <p className='p-header-clinic'>Medic veterinar la domiciliu  </p>
                 </Link>
                 </div>
                 <div className='clinic-emergencies'>

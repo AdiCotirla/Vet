@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.footer
+{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.footer-container
+{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.producator-container
+{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.493);
+    text-align: center;
+}
+.producator-container::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 2px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.footer-logo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+.footer-logo-image
+{
+    height: 30%;
+    min-width: 30%;
+}
+.links-footer
+{
+    min-width: 50%;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.icons-container
+{
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.icon
+{
+    font-size: 2rem;
+    margin: 7.5px 15px;
+}
+.links-footer-apps
+{
+    height: 40px;
+    width: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 7.5px 7.5px;
+}
+.apps
+{
+    height: 60%;
+    width: 60%;
+}
+.instagram
+{
+    background-color: #bc2a8d;
+}
+.instagram:hover
+{
+    background-color: #a7247d;
+
+}
+.facebook
+{
+    background-color: #3b5998 ;
+}
+.facebook:hover
+{
+    background-color: #334b81 ;
+}
+.linkedin
+{
+    background-color: #007bb6 ;
+}
+.linkedin:hover
+{
+    background-color: #036897 ;
+}
+
+
+.footer-middle
+{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    flex-direction: column;
+}
+.para-footer
+{
+    color: black;
+
+    position: relative;
+}
+.para-footer::before 
+{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -75%;
+    left: 0%;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+.para-span
+{
+    font-weight: 600;
+    margin-left: 5%;
+}
+.footer-contact
+{
+    height: 90%;
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-links
+{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.links-footer-contact
+{
+    color: black;
+    text-decoration: none;
+    height: 20%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 350ms;
+    width: 30%;
+}
+.links-footer-contact:hover
+{
+    background-color: beige;
+    color: black;
+}
+
+@media only screen and (max-width:960px) {
+.footer
+{
+    height: auto;
+}
+.producator-container::before
+{
+    width: 90vw;
+}
+.para-footer::before 
+{
+    width: 90vw;
+    left: 50%;
+    transform: translate(-50%);
+}
+.footer-logo,
+.footer-middle,
+.footer-contact
+{
+    width: 100vw;
+}
+.footer-middle
+{
+    height: auto;
+    margin: 50px 0px;
+}
+.footer-container
+    {
+        height: auto;
+        flex-direction: column;
+    }
+.footer-logo
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.footer-logo-image
+{
+    height: 100px;
+    max-width: 90vw;
+}
+.links-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.para-footer
+{
+    height: 30px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.para-footer::before 
+{
+    top: -5%;
+}
+.container-links
+{
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: auto;
+}
+.links-footer-contact
+{
+    width: 100%;
+    height: 40px;
+}
+.icon
+{
+    margin: 7.5px 0px;
+}
+}

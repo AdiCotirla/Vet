@@ -1,5 +1,6 @@
 .servicii-container
-{
+{  -webkit-box-shadow: 0px 0px 12px 1px #000000; 
+    box-shadow: 0px 0px 12px 1px #000000;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -10,6 +11,15 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.pasare
+{
+    opacity: 1;
+    left: 0;
+    position: absolute;
+    height: 100px;
+    width: 100px;
 }
 .container-tricks
 {
@@ -48,7 +58,7 @@
 }
 .servicii-header
 {
-    color: white;
+    
     margin-bottom: 50px;
     font-size: 4rem;
     width: 100%;
@@ -89,8 +99,6 @@
     text-align: center;
     align-items: center;
     width: 100vw;
-    margin-bottom: 200px;
-    background-color: #4863ff;
     font-size: 1.5rem;
     -webkit-box-shadow: 0px 2px 12px  rgba(0,0,0,0.6); 
     box-shadow: 0 2px 12px rgb(0 0 0 / 60%);
@@ -110,7 +118,6 @@
 .contact-servicii-header
 {
     font-size: 2rem;
-    color: white;
     z-index: 999;
 }
 .servicii-a-buton
