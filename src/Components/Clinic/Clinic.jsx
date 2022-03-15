@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import * as GrIcons from "react-icons/gr"
 import * as BsIcons from "react-icons/bs"
-import logo from "../../assets/deplasare.png"
 
 import "../../Styling/Clinic.css"
 export default function Clinic() {

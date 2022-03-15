@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,6 +9,12 @@ import Home from './Pages/Home';
 import Navbar from './Components/Menu/menu';
 import Clinic from './Components/Clinic/Clinic';
 import Footer from './Components/Footer/Footer';
+import CategoryPage from './Pages/CategoryPage';
+import loadable from '@loadable/component'
+
+// const FooterComponent = loadable(() => import('./Components/Footer/Footer'))
+
+
 function App() {
   return (
   <Router basename='/Vet'>
@@ -16,6 +23,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route exact path='/' element={<Home/>}/>
+      <Route exact path='/servicii' element={<CategoryPage/>}/>
   </Routes>
   <Footer/>
   </div>

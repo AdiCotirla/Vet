@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../../Styling/Navbar.css';
 import Dropdown from '../SubMenu/SubMenu';
-import * as MdIcons from "react-icons/md"
-import * as BsIcons from "react-icons/bs"
+import * as Md from "react-icons/md"
+import * as Bs from "react-icons/bs"
 
 
 
@@ -56,7 +56,7 @@ function Navbar(props) {
           }}/>
           <p>Kevinvet Doc</p>
           <a href='/#'>
-                            <BsIcons.BsFillTelephoneFill className='phone'/>
+                            <Bs.BsFillTelephoneFill className='phone'/>
                             </a>
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -103,7 +103,7 @@ function Navbar(props) {
 
       <nav className='navbar-sticky' id="navbar-sticky">
         <Link to='/' className='navbar-logo-sticky' onClick={closeMobileMenu}>
-        <MdIcons.MdHealthAndSafety/>
+        <Md.MdHealthAndSafety/>
          Kevinvet Doc
         </Link>
         <div className='menu-icon-sticky' onClick={handleClick}>
@@ -148,23 +148,6 @@ function Navbar(props) {
           </li>
         </ul>
       </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   );
 }
