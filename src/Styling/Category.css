@@ -1,12 +1,19 @@
 .container-category
 {
-    min-height: 100vh;
+    min-height: 125vh;
+    padding: calc(1% + 25px);
+    background-color: rgba(148, 147, 147, 0.103); 
+    -webkit-box-shadow: 0px 2px 12px  rgba(0, 0, 0, 0.26); 
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.267);
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 70vw;
+    width: 80vw;
     margin-top: 50px;
     text-align: center;
+    /* align-items: center; */
+
 }
 .category-header
 {
@@ -27,9 +34,31 @@
 }
 .a-categorii
 {
+    height: 35vh;
     width: 60%;
     display: flex;
     text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    background-color:#4863ff;
+    align-items: center;  
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 650ms;
+}
+.container-imagine-servicii
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-category
+{
+    height: 90%;
+    width: 90%;
+
 }
 .categorii
 {
@@ -39,17 +68,14 @@
     text-align: center;
     height: 30vh;
     width: 100%;
-    position: relative;
-    background-color: #4863ff;
+    /* position: relative; */
+    /* background-color: #4863ff; */
     color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    transition: 350ms;
 }
-.categorii:hover
+.a-categorii:hover
 {
     transition: 350ms;
     background-color: #2d3fa7;
@@ -74,6 +100,7 @@
 .dreapta
 {
    align-self: flex-end;
+   flex-direction: row-reverse;
 }
 .vertical-sus,
 .orizontal-sus,
@@ -110,7 +137,15 @@
     bottom: -25px;
 }
 
-@media only screen and (max-width:960px) 
+@media only screen and (max-width:1060px) and (min-width: 600px) 
+{
+    .a-categorii
+    {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) 
 {
     .container-category
     {
@@ -119,7 +154,11 @@
     .a-categorii
     {
         width: 100%;
+        flex-direction: column;
     }
-    
+    .container-imagine-servicii
+    {
+        height: 60%;
+    }
     
 }

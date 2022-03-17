@@ -121,7 +121,7 @@ function Navbar(props) {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/services'
+              to='/servicii'
               className='nav-links'
               onClick={closeMobileMenu}
             >

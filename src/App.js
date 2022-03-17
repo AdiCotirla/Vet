@@ -10,9 +10,8 @@ import Navbar from './Components/Menu/menu';
 import Clinic from './Components/Clinic/Clinic';
 import Footer from './Components/Footer/Footer';
 import CategoryPage from './Pages/CategoryPage';
-import loadable from '@loadable/component'
 
-// const FooterComponent = loadable(() => import('./Components/Footer/Footer'))
+
 
 
 function App() {

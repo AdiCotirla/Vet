@@ -12,6 +12,9 @@ export default function Category() {
         {CategoryData.map((items, index) => {
             return (
                 <Link to={items.path} className={items.acName} key={index}>
+                    <div className={items.imgcName}>
+                        <img src={items.img} alt="services" className='img-category'></img>
+                    </div>
                 <div className={items.cName} >
                     <h1> {items.title} </h1>
                     <img src={vertical} className="vertical-sus" alt='line'></img>

@@ -15,7 +15,7 @@ export default function Clinic() {
                 </div>
                 <div className='clinic-emergencies'>
                     <div className='emergencies-number'>
-                        <a href='/#' className='emergencies-number-a'>
+                        <a href='tel:+0746878517' className='emergencies-number-a'>
                             <BsIcons.BsFillTelephoneFill className='phone'/>
                               :0746878517
                             </a>
