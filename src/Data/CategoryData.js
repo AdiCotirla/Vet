@@ -4,7 +4,7 @@ import standard from "../assets/standard.jpg"
 
 export const CategoryData =[
     {
-        title:"Servicii standard",
+        title:"Servicii generale",
         cName:'categorii standard',
         path:"/standard",
         acName: "a-categorii stanga",
