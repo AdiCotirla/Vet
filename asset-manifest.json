@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/Vet/static/css/main.c3a0c41a.css",
-    "main.js": "/Vet/static/js/main.0ecdc1fd.js",
+    "main.css": "/Vet/static/css/main.c991716f.css",
+    "main.js": "/Vet/static/js/main.59eaf753.js",
     "static/js/787.d8c21dcf.chunk.js": "/Vet/static/js/787.d8c21dcf.chunk.js",
+    "static/media/special.png": "/Vet/static/media/special.5d01c2df01e6305dbb07.png",
     "static/media/ofta.png": "/Vet/static/media/ofta.82b513627275c63ec24b.png",
     "static/media/doc2.jpg": "/Vet/static/media/doc2.9150e0c29f067d9b6d0d.jpg",
     "static/media/doc.jpg": "/Vet/static/media/doc.8af0baaf0a8cb3853412.jpg",
     "static/media/doc3.jpg": "/Vet/static/media/doc3.390aa74c4ecf4fbc51e5.jpg",
     "static/media/log.png": "/Vet/static/media/log.b865e0b98789b1394d5c.png",
     "static/media/tree.jpg": "/Vet/static/media/tree.f7e8d24eed0298b95f0f.jpg",
+    "static/media/standard.jpg": "/Vet/static/media/standard.5da13f7c3ad332bdb47c.jpg",
+    "static/media/dogvac.jpeg": "/Vet/static/media/dogvac.c036802a65eee5615f6e.jpeg",
     "static/media/deplasare.png": "/Vet/static/media/deplasare.4ccc255e9d54612d31bf.png",
     "static/media/backvet.jpg": "/Vet/static/media/backvet.9d6bf1494059dbbbac12.jpg",
     "static/media/pocal.png": "/Vet/static/media/pocal.85842d2c9dc436582fd7.png",
@@ -16,12 +19,12 @@
     "static/media/vaccin.png": "/Vet/static/media/vaccin.778a264e1797f069a344.png",
     "static/media/derma.png": "/Vet/static/media/derma.381a2f0487bc30d77394.png",
     "index.html": "/Vet/index.html",
-    "main.c3a0c41a.css.map": "/Vet/static/css/main.c3a0c41a.css.map",
-    "main.0ecdc1fd.js.map": "/Vet/static/js/main.0ecdc1fd.js.map",
+    "main.c991716f.css.map": "/Vet/static/css/main.c991716f.css.map",
+    "main.59eaf753.js.map": "/Vet/static/js/main.59eaf753.js.map",
     "787.d8c21dcf.chunk.js.map": "/Vet/static/js/787.d8c21dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3a0c41a.css",
-    "static/js/main.0ecdc1fd.js"
+    "static/css/main.c991716f.css",
+    "static/js/main.59eaf753.js"
   ]
 }
