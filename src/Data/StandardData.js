@@ -28,7 +28,7 @@ export const StandardData =[
     
     },
     {
-        title:"Consiliere nutrițională",
+        title:"Consiliere nutriție",
         cName:'service vaccin-service',
         acName: "container service-stanga",
         imgcName: "container-imagine-services vaccin-imagine",
