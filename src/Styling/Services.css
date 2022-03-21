@@ -1,0 +1,114 @@
+.container-services
+{
+    min-height: 145vh;
+    padding: calc(1% + 25px);
+    background-color: rgba(148, 147, 147, 0.103);
+    box-shadow: 0 0px 12px rgb(0 0 0 / 27%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 60vw;
+    height: 40vh;
+    text-align: start;
+    position: relative;
+     background-color:#4863ff;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 650ms;
+}
+.service
+{
+    display: flex;
+    height: 75%;
+    width: 55%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.tarif-button
+{
+    background-color: white;
+    border: 2px solid #4863ff;
+    box-shadow: 0 2px 12px rgb(0 0 0 / 60%);
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    width: 100px;
+}
+.service-dreapta
+{
+    align-self: flex-end;
+}
+.container-imagine-services
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    width: 35%;
+}
+.img-services
+{
+    width: 100%;
+    height: 100%; 
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+@media only screen and (max-width:960px) 
+{
+    .infos
+    {
+        margin-top: 5px;
+    }
+    .tarif-button
+    {
+        height: 35px;
+        margin-top: 10px;
+    }
+    .container-services
+    {
+      
+        align-items: center;
+        width: 90vw;
+    }
+    .service
+    {
+        font-size: 0.6rem;
+        width: 90%;
+        justify-content: center;
+        height: auto;
+    }
+    .container
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .service-dreapta
+    {
+        align-self: unset;
+    }
+    .container-imagine-services 
+    {
+        width: 100%;
+        height: 30%;
+    }
+    .img-services
+    {
+        width: 90%;
+        height:90%
+    }
+}

@@ -9,7 +9,7 @@ import Home from './Pages/Home';
 import Navbar from './Components/Menu/menu';
 import Clinic from './Components/Clinic/Clinic';
 import Footer from './Components/Footer/Footer';
-// import CategoryPage from './Pages/CategoryPage';
+
 import Category from './Components/Category/Category';
 import { CategoryData } from './Data/CategoryData';
 import { VaccinData } from './Data/VaccinData';
@@ -28,7 +28,7 @@ function App() {
       <Route exact path='/servicii' element={<Category categories = {CategoryData}/>}/>
       {/* <Route exact path='/standard' element={<Category categories = {}/>}/> */}
       {/* <Route exact path='/specialitate' element={<Category categories = {}/>}/> */}
-      <Route exact path='/vaccin' element={<Service categories = {VaccinData}/>}/>
+      <Route exact path='/vaccin' element={<Service categories = {VaccinData} title= "Vaccinuri oferite"/>}/>
 
   </Routes>
   <Footer/>

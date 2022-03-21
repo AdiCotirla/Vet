@@ -12,8 +12,6 @@
     width: 80vw;
     margin-top: 50px;
     text-align: center;
-    /* align-items: center; */
-
 }
 .category-header
 {
@@ -71,8 +69,6 @@
     text-align: center;
     height: 30vh;
     width: 100%;
-    /* position: relative; */
-    /* background-color: #4863ff; */
     color: white;
     background-position: center;
     background-repeat: no-repeat;

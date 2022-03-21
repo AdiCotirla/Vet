@@ -1,19 +1,19 @@
 import React from 'react'
-import "../../Styling/Category.css"
 import line from "../../assets/line.png"
 import vertical from "../../assets/vertical.png"
-import { Link } from 'react-router-dom'
 import * as Bi from "react-icons/bi"
+import "../../Styling/Services.css"
+
 
 export default function Service(props) {
-  return (<div className='category-page'>
-        <h1 className='category-header'>Serviciile noastre</h1>
-    <div className='container-category'>
+  return (<div className='services-page'>
+        <h1 className='category-header'>{props.title}</h1>
+    <div className='container-services'>
         {props.categories.map((items, index) => {
             return (
                 <div className={items.acName} key={index}>
                     <div className={items.imgcName}>
-                        <img src={items.img} alt="services" className='img-category'></img>
+                        <img src={items.img} alt="services" className='img-services'></img>
                     </div>
                 <div className={items.cName} >
                     <h1 className='vaccin-title'> {items.title} </h1>
@@ -22,9 +22,11 @@ export default function Service(props) {
                         <Bi.BiTime/>
                         {items.durata}
                     </p>
+                    <a href='tel:0746878517'>
                     <button className='tarif-button'>
                         {items.tarif}
                     </button>
+                     </a>
                     <img src={vertical} className="vertical-sus" alt='line'></img>
                     <img src={line} className="orizontal-sus" alt='line'></img>
                     <img src={vertical} className="vertical-jos" alt='line'></img>
