@@ -120,17 +120,17 @@
     {
       
         align-items: center;
-        width: 90vw;
+        width:95vw;
     }
     .service
     {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         width: 90%;
         justify-content: center;
     }
     .container
     {
-        height: 45vh;
+        height: 55vh;
         flex-direction: column;
         width: 100%;
     }
