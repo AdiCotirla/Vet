@@ -13,7 +13,7 @@ export const VaccinData =[
     }
     ,
     {
-        title:"Vaccin bivalent / trivalent",
+        title:"Vaccin bivalent",
         cName:'service vaccin-service vaccin-service-left',
         acName: "container service-dreapta",
         imgcName: "container-imagine-services vaccin-imagine",
