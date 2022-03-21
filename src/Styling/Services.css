@@ -140,7 +140,8 @@
     }
     .container
     {
-        height: 55vh;
+        height: auto;
+        min-height: 55vh;
         flex-direction: column;
         width: 100%;
     }
