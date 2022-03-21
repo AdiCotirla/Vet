@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vet/static/css/main.2886b7f0.css",
-    "main.js": "/Vet/static/js/main.63c7c9c0.js",
+    "main.js": "/Vet/static/js/main.519f70dc.js",
     "static/js/787.d8c21dcf.chunk.js": "/Vet/static/js/787.d8c21dcf.chunk.js",
     "static/media/special.png": "/Vet/static/media/special.5d01c2df01e6305dbb07.png",
     "static/media/ofta.png": "/Vet/static/media/ofta.82b513627275c63ec24b.png",
@@ -30,11 +30,11 @@
     "static/media/serviciu-ofta.jpg": "/Vet/static/media/serviciu-ofta.8541ef9a14df0bb0d32f.jpg",
     "index.html": "/Vet/index.html",
     "main.2886b7f0.css.map": "/Vet/static/css/main.2886b7f0.css.map",
-    "main.63c7c9c0.js.map": "/Vet/static/js/main.63c7c9c0.js.map",
+    "main.519f70dc.js.map": "/Vet/static/js/main.519f70dc.js.map",
     "787.d8c21dcf.chunk.js.map": "/Vet/static/js/787.d8c21dcf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2886b7f0.css",
-    "static/js/main.63c7c9c0.js"
+    "static/js/main.519f70dc.js"
   ]
 }
