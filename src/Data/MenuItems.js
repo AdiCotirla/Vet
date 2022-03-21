@@ -8,5 +8,10 @@ export const MenuItems = [
       title: 'De specialitate',
       path: '/specialitate',
       cName: 'dropdown-link'
+    },
+    {
+      title: 'Vaccinuri',
+      path: '/vaccin',
+      cName: 'dropdown-link'
     }
   ];

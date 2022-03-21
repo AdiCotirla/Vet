@@ -25,7 +25,7 @@
      background-color:#4863ff;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    transition: 650ms;
+    transition: 350ms;
 }
 .service
 {
@@ -35,17 +35,27 @@
     justify-content: space-evenly;
     flex-direction: column;
 }
+.a-tarif
+{
+    width: 100px;
+    height: 50px;
+}
 .tarif-button
 {
     background-color: white;
-    border: 2px solid #4863ff;
+    border: 2px solid white;
     box-shadow: 0 2px 12px rgb(0 0 0 / 60%);
-    border: none;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     height: 50px;
     width: 100px;
     margin: 5px 0px;
+    cursor: pointer;
+    transition: 650ms;
+}
+.tarif-button:hover
+{
+    border: 2px solid rgba(0, 0, 0, 0.281);
 }
 .service-dreapta
 {

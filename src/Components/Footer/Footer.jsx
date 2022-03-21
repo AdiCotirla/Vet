@@ -36,10 +36,10 @@ export default function Footer() {
       </div>
       <div className='footer-contact'>
         <div className='container-links'>
-        <Link to="/#" className='links-footer-contact'>Acasa</Link>
-        <Link to="/#" className='links-footer-contact'>Servicii</Link>
-        <Link to="/#" className='links-footer-contact'>About us</Link>
-        <Link to="/#" className='links-footer-contact'>Contact</Link>
+        <Link to="/" className='links-footer-contact'>Acasa</Link>
+        <Link to="/servicii" className='links-footer-contact'>Servicii</Link>
+        <Link to="/about" className='links-footer-contact'>About us</Link>
+        <Link to="/contact" className='links-footer-contact'>Contact</Link>
         </div>
       </div>
     </div>
