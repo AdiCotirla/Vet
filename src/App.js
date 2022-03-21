@@ -29,7 +29,7 @@ function App() {
     <Routes>
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/servicii' element={<Category categories = {CategoryData}/>}/>
-      <Route exact path='/standard' element={<Service categories = {StandardData} title="Servicii standard"/>}/>
+      <Route exact path='/standard' element={<Service categories = {StandardData} title="Servicii generale"/>}/>
       <Route exact path='/specialitate' element={<Service categories = {SpecialData} title="Servicii de specialitate"/>}/>
       <Route exact path='/vaccin' element={<Service categories = {VaccinData} title= "Vaccinuri oferite"/>}/>
 

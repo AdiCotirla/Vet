@@ -79,7 +79,7 @@
 }
 .vaccin-title
 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .time-p
 {
@@ -151,12 +151,12 @@
     }
     .container-imagine-services 
     {
-        width: 100%;
+        width: 90%;
         height: 40%;
     }
     .img-services
     {
-        width: 90%;
-        height:90%
+        width: 100%;
+        height: 90%
     }
 }
