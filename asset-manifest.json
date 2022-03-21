@@ -1,31 +1,40 @@
 {
   "files": {
-    "main.css": "/Vet/static/css/main.68b5c6e8.css",
-    "main.js": "/Vet/static/js/main.d59a3960.js",
+    "main.css": "/Vet/static/css/main.dfa2d316.css",
+    "main.js": "/Vet/static/js/main.21829b76.js",
     "static/js/787.d8c21dcf.chunk.js": "/Vet/static/js/787.d8c21dcf.chunk.js",
     "static/media/special.png": "/Vet/static/media/special.5d01c2df01e6305dbb07.png",
     "static/media/ofta.png": "/Vet/static/media/ofta.82b513627275c63ec24b.png",
+    "static/media/serviciu-nutritie.jpg": "/Vet/static/media/serviciu-nutritie.1737453cfdaf8e954be3.jpg",
     "static/media/doc2.jpg": "/Vet/static/media/doc2.9150e0c29f067d9b6d0d.jpg",
     "static/media/doc.jpg": "/Vet/static/media/doc.8af0baaf0a8cb3853412.jpg",
     "static/media/doc3.jpg": "/Vet/static/media/doc3.390aa74c4ecf4fbc51e5.jpg",
     "static/media/log.png": "/Vet/static/media/log.b865e0b98789b1394d5c.png",
     "static/media/tree.jpg": "/Vet/static/media/tree.f7e8d24eed0298b95f0f.jpg",
     "static/media/standard.jpg": "/Vet/static/media/standard.5da13f7c3ad332bdb47c.jpg",
+    "static/media/serviciu-dentar.jpg": "/Vet/static/media/serviciu-dentar.f6c660f0d65f3493ecec.jpg",
     "static/media/dogvac.jpeg": "/Vet/static/media/dogvac.c036802a65eee5615f6e.jpeg",
+    "static/media/serviciu-durere.jpg": "/Vet/static/media/serviciu-durere.129780e6332cf54f4d4a.jpg",
     "static/media/deplasare.png": "/Vet/static/media/deplasare.4ccc255e9d54612d31bf.png",
     "static/media/backvet.jpg": "/Vet/static/media/backvet.9d6bf1494059dbbbac12.jpg",
     "static/media/pocal.png": "/Vet/static/media/pocal.85842d2c9dc436582fd7.png",
+    "static/media/serviciu-general.jpg": "/Vet/static/media/serviciu-general.3011d0fa331a5997b57e.jpg",
     "static/media/general.png": "/Vet/static/media/general.b09bea0bffe07c1514b3.png",
-    "static/media/vaccindata.jpg": "/Vet/static/media/vaccindata.8dcb5c0ffd26574e3b4b.jpg",
+    "static/media/serviciu-pui.jpg": "/Vet/static/media/serviciu-pui.df03ad2a03493090ef0a.jpg",
+    "static/media/vaccin-dog.webp": "/Vet/static/media/vaccin-dog.fc1733af9fe43c3b3e47.webp",
+    "static/media/vaccindata.jpg": "/Vet/static/media/vaccindata.f7d1d1f6e9d37f99de1d.jpg",
     "static/media/vaccin.png": "/Vet/static/media/vaccin.778a264e1797f069a344.png",
+    "static/media/serviciu-derma.jpg": "/Vet/static/media/serviciu-derma.6922254054bfaec5dab8.jpg",
+    "static/media/vaccin-cat.webp": "/Vet/static/media/vaccin-cat.c588cc929a41ed71edda.webp",
     "static/media/derma.png": "/Vet/static/media/derma.381a2f0487bc30d77394.png",
+    "static/media/serviciu-ofta.jpg": "/Vet/static/media/serviciu-ofta.8541ef9a14df0bb0d32f.jpg",
     "index.html": "/Vet/index.html",
-    "main.68b5c6e8.css.map": "/Vet/static/css/main.68b5c6e8.css.map",
-    "main.d59a3960.js.map": "/Vet/static/js/main.d59a3960.js.map",
+    "main.dfa2d316.css.map": "/Vet/static/css/main.dfa2d316.css.map",
+    "main.21829b76.js.map": "/Vet/static/js/main.21829b76.js.map",
     "787.d8c21dcf.chunk.js.map": "/Vet/static/js/787.d8c21dcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68b5c6e8.css",
-    "static/js/main.d59a3960.js"
+    "static/css/main.dfa2d316.css",
+    "static/js/main.21829b76.js"
   ]
 }
