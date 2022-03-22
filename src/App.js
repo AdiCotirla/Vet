@@ -16,6 +16,8 @@ import Service from './Components/Service/Service';
 import { SpecialData } from './Data/SpecialitateData';
 import { StandardData } from './Data/StandardData';
 import ScrollToTop from './ScrollToTop';
+import About from './Components/About/About';
+
 
 
 
@@ -32,7 +34,7 @@ function App() {
       <Route exact path='/standard' element={<Service categories = {StandardData} title="Servicii generale"/>}/>
       <Route exact path='/specialitate' element={<Service categories = {SpecialData} title="Servicii de specialitate"/>}/>
       <Route exact path='/vaccin' element={<Service categories = {VaccinData} title= "Vaccinuri oferite"/>}/>
-
+      <Route exact path='/about'  element = {<About/>}></Route>
   </Routes>
   <Footer/>
   </div>
