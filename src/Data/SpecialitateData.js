@@ -12,7 +12,7 @@ export const SpecialData =[
         img: ofta,
         durata: " Durata : 15-20 minute",
         tarif: "170 lei",
-        infos: "Consta intr-un examen macroscopic ocular, verificat reflexe pupilare, motilitate oculara, se instileaza floresceina si sub filtru albastru se verifica suprafata corneana si TFBUT. La cerere se poate instila tropicamida 1% substanta midriatica pentru examinare fund de ochi. Tot la cerere se poate face un Tesct Schirmer pentru a vedea productia de lacrimi. Ultimele 2 vin la pachet si sunt 30 de lei extra."
+        infos: "Consta intr-un examen macroscopic ocular, verificat reflexe pupilare, motilitate oculara, se instileaza floresceina si sub filtru albastru se verifica suprafata corneana si TFBUT. Se poate instala tropicamida 1% substanta midriatica pentru examinare fund de ochi. Tot la cerere se poate face un test pentru productia de lacrimi."
     }
     ,
     {
