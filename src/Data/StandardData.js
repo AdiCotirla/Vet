@@ -44,6 +44,6 @@ export const StandardData =[
         img: dentara,
         durata: "Durata : 10-15 minute",
         tarif: "100 lei",
-        infos: "Cu totii stim ca animalelor noastre de companie le place sa manance tot ce gasesc. Aceste lucru poate duce la dezvoltarea unor probleme dentrare cum ar fi tartru dentar, caria dentara, inflamatia gingivala. Banala joaca de adus batul sau trasul funiei de catre catei poate duce la rupturi dentare ce pot fi dureroase si evolua cu infectii pulpare. Controalele regulate, mancarea adegvata, pot prevenii unele afectiuni, pe cand la cele traumatice trebuie luate masuri de natura stomatologica"
+        infos: "Cu totii stim ca animalelor noastre de companie le place sa manance tot ce gasesc. Aceste lucru poate duce la dezvoltarea unor probleme dentrare. Banala joaca de adus batul sau trasul funiei de catre catei poate duce la rupturi dentare ce pot fi dureroase si evolua cu infectii pulpare. Controalele regulate pot prevenii unele afectiuni, pe cand la cele traumatice trebuie luate masuri de natura stomatologica"
     },
 ]

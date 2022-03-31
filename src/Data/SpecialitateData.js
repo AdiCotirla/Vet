@@ -43,7 +43,7 @@ export const SpecialData =[
         img: durere,
         durata: "Durata : 20-30 minute",
         tarif: "120 lei",
-        infos: "In cazul in care animalul tau sufera de o afectiune dureroasa cronica, datorita varstei sau patologiei de rasa, singura recomandare care se mai poate face, este managementul durerii. Acest lucru ii va oferii animalului o viata mai putin dureroasa, fara perioade de acutizare. Tratamentele cronice, mai ales cand vorbim de durere, unde la un animal lucrurile sub foare obscure, necesita foarte mare atentie atat din partea medicului cat si din partea proprietarilor sa tina legatura cu medicul in privinta starii animalului."
+        infos: "Acest lucru ii va oferii animalului o viata mai putin dureroasa, fara perioade de acutizare. Tratamentele cronice, unde la un animal lucrurile sunt foarte obscure, necesita mare atentie din partea medicului cat si din partea proprietarilor sa tina legatura cu medicul in privinta starii animalului."
     
     },
 ]
