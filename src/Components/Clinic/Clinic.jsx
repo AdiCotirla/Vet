@@ -15,12 +15,12 @@ export default function Clinic() {
                 </div>
                 <div className='clinic-emergencies'>
                     <div className='emergencies-number'>
-                        <a href='tel:+0746878517' className='emergencies-number-a'>
+                        <a href='tel:+0743131953' className='emergencies-number-a'>
                             <BsIcons.BsFillTelephoneFill className='phone'/>
-                              :0746878517
+                              : 0743 131 953
                             </a>
                     </div>
-                    <Link to="/contact" className='linkuri'>
+                    <Link to="/contact-us" className='linkuri'>
                     <div className='emergencies-appointment'>
                         <GrIcons.GrSchedules className='calendar'/>
                         <p className='programare-p'>

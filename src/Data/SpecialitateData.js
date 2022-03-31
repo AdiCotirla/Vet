@@ -5,26 +5,25 @@ import durere from "../assets/serviciu-durere.jpg"
 
 export const SpecialData =[
     {
-        title:"Control oftalmologie",
+        title:"Consult oftalmologie",
         cName:'service vaccin-service',
         acName: "container service-stanga",
         imgcName: "container-imagine-services vaccin-imagine",
         img: ofta,
-        durata: " Durata : 5-10 minute",
+        durata: " Durata : 15-20 minute",
         tarif: "170 lei",
-        infos: "Consta intr-un examen macroscopic ocular, verificat reflexe pupilare, motilitate oculara, se instileaza floresceina si sub filtru albastru se verifica suprafata corneana si TFBUT ( tear film break up time) . La cerere se poate instila tropicamida 1% substanta midriatica pentru examinare fund de ochi ( dupa caz). Tot la cerere se poate face un Tesct Schirmer pentru a vedea productia de lacrimi. ultimele 2 vin la pachet si sunt 30 de lei extra."
+        infos: "Consta intr-un examen macroscopic ocular, verificat reflexe pupilare, motilitate oculara, se instileaza floresceina si sub filtru albastru se verifica suprafata corneana si TFBUT. La cerere se poate instila tropicamida 1% substanta midriatica pentru examinare fund de ochi. Tot la cerere se poate face un Tesct Schirmer pentru a vedea productia de lacrimi. Ultimele 2 vin la pachet si sunt 30 de lei extra."
     }
     ,
     {
-        title:"Control dermatologie",
+        title:"Consult dermatologie",
         cName:'service vaccin-service vaccin-service-left',
         acName: "container service-dreapta",
         imgcName: "container-imagine-services vaccin-imagine",
         img: derma,
-        durata: "Durata : 5-10 minute",
+        durata: "Durata : 10-15 minute",
         tarif: "160 lei",
-        infos: "Un vaccin este un produs medicamentos biologic care are ca scop inducerea unui răspuns imun și implicit protecție imună dobândită față de o anumită boală infecțioasă.[1] Vaccinurile pot conține agentul patogen întreg, atenuat sau dezactivat, toxinele produse de agent care sunt responsabile de producerea patologiei la om sau diferite fragmente moleculare ."
-    
+        infos: "Consta in inspectia atenta a blanii, a pielii, la nevoie cu lupa, se verifica istoricul deparazitarii.Consult dupa inceperea unui tratament la 1 saptamana sau mai repede (la cerere sau de nevoie, lucru care stabileste medicul) 70 de lei."
     },
     {
         title:"Carte de sanatate",
@@ -33,19 +32,18 @@ export const SpecialData =[
         imgcName: "container-imagine-services vaccin-imagine",
         img: carte,
         durata: "Durata : 5-10 minute",
-        tarif: "90 lei / Vaccin",
-        infos: "Un vaccin este un produs medicamentos biologic care are ca scop inducerea unui răspuns imun și implicit protecție imună dobândită față de o anumită boală infecțioasă.[1] Vaccinurile pot conține agentul patogen întreg, atenuat sau dezactivat, toxinele produse de agent care sunt responsabile de producerea patologiei la om sau diferite fragmente moleculare ."
-    
+        tarif: "50 lei ",
+        infos: "Istoricul tratamentelor medicale sub forma de vaccinuri si deparazitari sunt foarte importante, de aceea este foarte important ca proprietarul sa aiba tot timpul carnetul de sanatate la el cand merge cu animalul la o vizita medicala."
     },
     {
-        title:"Tratare dureri",
+        title:"Managementul durerii",
         cName:'service vaccin-service vaccin-service-left',
         acName: "container service-dreapta",
         imgcName: "container-imagine-services vaccin-imagine",
         img: durere,
-        durata: "Durata : 5-10 minute",
-        tarif: "90 lei / Vaccin",
-        infos: "Un vaccin este un produs medicamentos biologic care are ca scop inducerea unui răspuns imun și implicit protecție imună dobândită față de o anumită boală infecțioasă.[1] Vaccinurile pot conține agentul patogen întreg, atenuat sau dezactivat, toxinele produse de agent care sunt responsabile de producerea patologiei la om sau diferite fragmente moleculare ."
+        durata: "Durata : 20-30 minute",
+        tarif: "120 lei",
+        infos: "In cazul in care animalul tau sufera de o afectiune dureroasa cronica, datorita varstei sau patologiei de rasa, singura recomandare care se mai poate face, este managementul durerii. Acest lucru ii va oferii animalului o viata mai putin dureroasa, fara perioade de acutizare. Tratamentele cronice, mai ales cand vorbim de durere, unde la un animal lucrurile sub foare obscure, necesita foarte mare atentie atat din partea medicului cat si din partea proprietarilor sa tina legatura cu medicul in privinta starii animalului."
     
     },
 ]

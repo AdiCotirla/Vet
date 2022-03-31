@@ -41,9 +41,9 @@ export default function Tips() {
         <div className='contact-servicii'>
             <img src={cat} alt="servicii" className='back-contact'></img>
             <h1 className='contact-servicii-header'>Programeaza o intalnire cu doctorul</h1>
-            <a href='tel:+0746878517' className='servicii-a'>
+            <a href='tel:+0743131953' className='servicii-a'>
                 <button className='servicii-a-buton'>
-                    <p className='buton-nr'>0746878517</p>
+                    <p className='buton-nr'>0743 131 953</p>
                 </button>
             </a>
         </div>

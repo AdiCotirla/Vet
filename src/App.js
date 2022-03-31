@@ -35,6 +35,7 @@ function App() {
       <Route exact path='/specialitate' element={<Service categories = {SpecialData} title="Servicii de specialitate"/>}/>
       <Route exact path='/vaccin' element={<Service categories = {VaccinData} title= "Vaccinuri oferite"/>}/>
       <Route exact path='/about'  element = {<About/>}></Route>
+      <Route exact path='/contact-us'  element = {<></>}></Route>
   </Routes>
   <Footer/>
   </div>

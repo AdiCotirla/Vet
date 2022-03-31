@@ -16,7 +16,7 @@ export default function Footer() {
     <div className='footer-container'>
       <div className='footer-logo'>
         <img src={logo} alt="Logo" className='footer-logo-image'></img>
-        <a href="tel:+0746878517" className='links-footer'><Bs.BsFillTelephoneFill className='icon'/><p>07468785117</p></a>
+        <a href="tel:+0743131953" className='links-footer'><Bs.BsFillTelephoneFill className='icon'/><p>0743 131 953</p></a>
         <a href="mailto:adioprea@gmail.com" className='links-footer'><Io.IoPaperPlaneOutline  className='icon'/><p>Trimite email</p></a>
        <div className='icons-container'>
         <a href="https://www.instagram.com" className='links-footer-apps instagram'><Fa.FaInstagram className='apps'/></a>

@@ -22,7 +22,7 @@ export default function Service(props) {
                         <Bi.BiTime/>
                         {items.durata}
                     </p>
-                    <a href='tel:0746878517' className='a-tarif'>
+                    <a href='tel:0743131953' className='a-tarif'>
                     <button className='tarif-button'>
                         {items.tarif}
                     </button>
