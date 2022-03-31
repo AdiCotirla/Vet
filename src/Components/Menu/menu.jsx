@@ -55,7 +55,7 @@ function Navbar(props) {
             BlurRoot()
           }}/>
           <p>Kevinvet Doc</p>
-          <a href='/#'>
+          <a href='tel:0743131953'>
                             <Bs.BsFillTelephoneFill className='phone'/>
                             </a>
         </div>
